@@ -1,0 +1,11 @@
+{
+	"image_cart": {
+		"id": "com.atmecs.falcon.falconapp:id/cart_image"
+	},
+	"product_list": {
+		"id": "com.atmecs.falcon.falconapp:id/product_list"
+	},
+	"list_cart": {
+		"id": "com.atmecs.falcon.falconapp:id/cart_item_list"
+	}
+}

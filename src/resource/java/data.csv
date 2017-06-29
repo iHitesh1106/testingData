@@ -1,0 +1,4 @@
+##id=id_value
+image_id=android.widget.ImageButton
+home_id=com.atmecs.falcon.falconapp:id/design_menu_item_text
+product_list_id=com.atmecs.falcon.falconapp:id/product_list

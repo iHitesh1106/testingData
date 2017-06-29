@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Total Number of devices detected::1]]>
+    </line>
+    <line>
+      <![CDATA[Starting Appium server for device : 192.168.245.101:5555]]>
+    </line>
+    <line>
+      <![CDATA[Passing UserName]]>
+    </line>
+    <line>
+      <![CDATA[Passing password]]>
+    </line>
+    <line>
+      <![CDATA[Logged In]]>
+    </line>
+    <line>
+      <![CDATA[LogOut]]>
+    </line>
+    <line>
+      <![CDATA[Passing UserName]]>
+    </line>
+    <line>
+      <![CDATA[Passing password]]>
+    </line>
+    <line>
+      <![CDATA[Logged In]]>
+    </line>
+    <line>
+      <![CDATA[LogOut]]>
+    </line>
+    <line>
+      <![CDATA[Passing UserName]]>
+    </line>
+    <line>
+      <![CDATA[Passing password]]>
+    </line>
+    <line>
+      <![CDATA[Logged In]]>
+    </line>
+    <line>
+      <![CDATA[LogOut]]>
+    </line>
+  </reporter-output>
+  <suite name="TestNG Forum" duration-ms="62252" started-at="2017-06-20T12:45:14Z" finished-at="2017-06-20T12:46:16Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test0" duration-ms="62252" started-at="2017-06-20T12:45:14Z" finished-at="2017-06-20T12:46:16Z">
+      <class name="com.atmecs.xls.XlsReading.module.TestScript1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="6" started-at="2017-06-20T18:15:14Z" finished-at="2017-06-20T18:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="7134" started-at="2017-06-20T18:15:14Z" finished-at="2017-06-20T18:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atmecs.xls.XlsReading.module.TestScript1.testLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="testLogin" duration-ms="12434" started-at="2017-06-20T18:15:21Z" data-provider="logindata" finished-at="2017-06-20T18:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hitesh@atmecs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hitesh123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passing UserName]]>
+            </line>
+            <line>
+              <![CDATA[Passing password]]>
+            </line>
+            <line>
+              <![CDATA[Logged In]]>
+            </line>
+            <line>
+              <![CDATA[LogOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1564" started-at="2017-06-20T18:15:34Z" finished-at="2017-06-20T18:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin on [TestScript1 passed=0 failed=0 skipped=0] status=SUCCESS method=TestScript1.testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]] output=Passing UserName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="6387" started-at="2017-06-20T18:15:35Z" finished-at="2017-06-20T18:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atmecs.xls.XlsReading.module.TestScript1.testLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="testLogin" duration-ms="12178" started-at="2017-06-20T18:15:42Z" data-provider="logindata" finished-at="2017-06-20T18:15:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[piyush@atmecs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[piyuh123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passing UserName]]>
+            </line>
+            <line>
+              <![CDATA[Passing password]]>
+            </line>
+            <line>
+              <![CDATA[Logged In]]>
+            </line>
+            <line>
+              <![CDATA[LogOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1586" started-at="2017-06-20T18:15:54Z" finished-at="2017-06-20T18:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin on [TestScript1 passed=0 failed=0 skipped=0] status=SUCCESS method=TestScript1.testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]] output=Passing UserName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="6620" started-at="2017-06-20T18:15:55Z" finished-at="2017-06-20T18:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atmecs.xls.XlsReading.module.TestScript1.testLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="testLogin" duration-ms="12283" started-at="2017-06-20T18:16:02Z" data-provider="logindata" finished-at="2017-06-20T18:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omkar@atmecs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[omkar123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passing UserName]]>
+            </line>
+            <line>
+              <![CDATA[Passing password]]>
+            </line>
+            <line>
+              <![CDATA[Logged In]]>
+            </line>
+            <line>
+              <![CDATA[LogOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1568" started-at="2017-06-20T18:16:14Z" finished-at="2017-06-20T18:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin on [TestScript1 passed=0 failed=0 skipped=0] status=SUCCESS method=TestScript1.testLogin(java.lang.String, java.lang.String)[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]] output=Passing UserName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:[TestScript1 passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-20T18:16:16Z" finished-at="2017-06-20T18:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.atmecs.xls.XlsReading.module.TestScript1 -->
+    </test> <!-- TestNG Test0 -->
+  </suite> <!-- TestNG Forum -->
+</testng-results>

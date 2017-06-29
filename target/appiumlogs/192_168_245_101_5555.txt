@@ -1,0 +1,376 @@
+2017-06-20 12:45:13:563 - info: [Appium] Welcome to Appium v1.6.4
+2017-06-20 12:45:13:565 - info: [Appium] Non-default server args:
+2017-06-20 12:45:13:566 - info: [Appium]   port: 59338
+2017-06-20 12:45:13:566 - info: [Appium]   bootstrapPort: 59340
+2017-06-20 12:45:13:566 - info: [Appium]   sessionOverride: true
+2017-06-20 12:45:13:566 - info: [Appium]   log: C:\Users\hitesh.ambagade\workspace\XlsReading\target\appiumlogs\192_168_245_101_5555.txt
+2017-06-20 12:45:13:566 - info: [Appium]   loglevel: info
+2017-06-20 12:45:13:567 - info: [Appium]   selendroidPort: 59341
+2017-06-20 12:45:13:567 - info: [Appium]   chromeDriverPort: 59339
+2017-06-20 12:45:13:567 - info: [Appium]   suppressKillServer: true
+2017-06-20 12:45:13:567 - info: [Appium]   udid: 192.168.245.101:5555
+2017-06-20 12:45:13:568 - warn: [Appium] Deprecated server args:
+2017-06-20 12:45:13:568 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"192.168.245.101:5555"}'
+2017-06-20 12:45:13:568 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2017-06-20 12:45:13:570 - info: [Appium]   udid: '192.168.245.101:5555'
+2017-06-20 12:45:13:610 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:59338
+2017-06-20 12:45:13:943 - info: [HTTP] --> GET /wd/hub/status {}
+2017-06-20 12:45:14:046 - info: [HTTP] <-- GET /wd/hub/status 200 101 ms - 83 
+2017-06-20 12:45:16:222 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk","appPackage":"atmecs.com.logintask","orientation":"","noReset":"true","dontStopAppOnReset":"","appiumVersion":"","appWaitPackage":"","appWaitActivity":"","language":"","locale":"","deviceName":"Android","fullReset":"false","appActivity":"atmecs.com.logintask.MainActivity","newCommandTimeout":"4000","platformVersion":"5.X","browserName":"","platformName":"Android"}}
+2017-06-20 12:45:16:226 - info: [Appium] Creating new AndroidDriver (v1.17.1) session
+2017-06-20 12:45:16:226 - info: [Appium] Capabilities:
+2017-06-20 12:45:16:226 - info: [Appium]   app: 'C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:16:227 - info: [Appium]   appPackage: 'atmecs.com.logintask'
+2017-06-20 12:45:16:227 - info: [Appium]   orientation: ''
+2017-06-20 12:45:16:228 - info: [Appium]   noReset: 'true'
+2017-06-20 12:45:16:228 - info: [Appium]   dontStopAppOnReset: ''
+2017-06-20 12:45:16:228 - info: [Appium]   appiumVersion: ''
+2017-06-20 12:45:16:228 - info: [Appium]   appWaitPackage: ''
+2017-06-20 12:45:16:228 - info: [Appium]   appWaitActivity: ''
+2017-06-20 12:45:16:228 - info: [Appium]   language: ''
+2017-06-20 12:45:16:229 - info: [Appium]   locale: ''
+2017-06-20 12:45:16:229 - info: [Appium]   deviceName: 'Android'
+2017-06-20 12:45:16:229 - info: [Appium]   fullReset: 'false'
+2017-06-20 12:45:16:229 - info: [Appium]   appActivity: 'atmecs.com.logintask.MainActivity'
+2017-06-20 12:45:16:229 - info: [Appium]   newCommandTimeout: '4000'
+2017-06-20 12:45:16:229 - info: [Appium]   platformVersion: '5.X'
+2017-06-20 12:45:16:230 - info: [Appium]   browserName: ''
+2017-06-20 12:45:16:230 - info: [Appium]   platformName: 'Android'
+2017-06-20 12:45:16:230 - info: [Appium]   udid: '192.168.245.101:5555'
+2017-06-20 12:45:16:234 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:16:234 - warn: [BaseDriver] Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:16:235 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+2017-06-20 12:45:16:237 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2017-06-20 12:45:16:238 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appiumVersion.
+2017-06-20 12:45:16:239 - info: [BaseDriver] Session created with session id: d80e2452-eb85-49cd-999e-6ee0df69da9b
+2017-06-20 12:45:16:332 - info: [AndroidDriver] Java version is: 1.8.0_131
+2017-06-20 12:45:16:335 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:16:337 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:16:337 - info: [AndroidDriver] Retrieving device list
+2017-06-20 12:45:16:388 - info: [AndroidDriver] Using device: 192.168.245.101:5555
+2017-06-20 12:45:16:389 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:16:392 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:16:393 - info: [BaseDriver] Using local app 'C:\Users\hitesh.ambagade\workspace\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:16:394 - info: [AndroidDriver] Starting Android session
+2017-06-20 12:45:16:873 - info: [ADB] Checking whether aapt is present
+2017-06-20 12:45:16:891 - info: [ADB] Using aapt.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\build-tools\24.0.0\aapt.exe
+2017-06-20 12:45:16:969 - warn: [ADB] Cannot read version codes of C:\Users\hitesh.ambagade\AppData\Local\Programs\appium-desktop\resources\app\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2017-06-20 12:45:17:796 - info: [ADB] Getting device platform version
+2017-06-20 12:45:18:545 - info: [AndroidDriver] Remote apk path is /data/local/tmp/1b1646be512f0268b7eac386649fd2e2.apk
+2017-06-20 12:45:20:083 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:45:20:243 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2017-06-20 12:45:20:243 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-06-20 12:45:20:246 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-06-20 12:45:20:279 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-06-20 12:45:20:349 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-06-20 12:45:21:654 - info: [Appium] New AndroidDriver session created successfully, session d80e2452-eb85-49cd-999e-6ee0df69da9b added to master session list
+2017-06-20 12:45:21:660 - info: [HTTP] <-- POST /wd/hub/session 200 5435 ms - 1402 
+2017-06-20 12:45:21:701 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element {"using":"id","value":"atmecs.com.logintask:id/email"}
+2017-06-20 12:45:21:714 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/email","context":"","multiple":false}}
+2017-06-20 12:45:21:716 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:21:716 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:21:716 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/email' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:45:21:716 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/email]
+2017-06-20 12:45:21:986 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2017-06-20 12:45:21:989 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element 200 287 ms - 87 
+2017-06-20 12:45:21:996 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/1/value {"id":"1","value":["hitesh@atmecs.com"]}
+2017-06-20 12:45:22:000 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"hitesh@atmecs.com","replace":false}}
+2017-06-20 12:45:22:000 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:22:001 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:45:22:001 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+2017-06-20 12:45:22:020 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:45:24:412 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2017-06-20 12:45:24:413 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2017-06-20 12:45:24:414 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: hitesh@atmecs.com
+2017-06-20 12:45:26:833 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:26:834 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/1/value 200 4838 ms - 76 
+2017-06-20 12:45:26:838 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element {"using":"id","value":"atmecs.com.logintask:id/password"}
+2017-06-20 12:45:26:843 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/password","context":"","multiple":false}}
+2017-06-20 12:45:26:843 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:26:844 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:26:844 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/password' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:45:26:844 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/password]
+2017-06-20 12:45:27:405 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2017-06-20 12:45:27:407 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element 200 569 ms - 87 
+2017-06-20 12:45:27:411 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/2/value {"id":"2","value":["hitesh123"]}
+2017-06-20 12:45:27:414 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"hitesh123","replace":false}}
+2017-06-20 12:45:27:414 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:27:414 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:45:27:414 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2017-06-20 12:45:27:420 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:45:29:752 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: hitesh123
+2017-06-20 12:45:32:226 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:32:229 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/2/value 200 4817 ms - 76 
+2017-06-20 12:45:32:233 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element {"using":"xpath","value":"//android.widget.Button[@index='0']"}
+2017-06-20 12:45:32:236 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='0']","context":"","multiple":false}}
+2017-06-20 12:45:32:236 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:32:237 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:32:237 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='0']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:45:32:254 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:45:32:753 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2017-06-20 12:45:32:754 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element 200 522 ms - 87 
+2017-06-20 12:45:32:759 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/3/click {"id":"3"}
+2017-06-20 12:45:32:763 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2017-06-20 12:45:32:764 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:32:764 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:45:33:157 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/3/click 200 398 ms - 76 
+2017-06-20 12:45:33:158 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:33:163 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element {"using":"xpath","value":"//android.widget.Button[@index='2']"}
+2017-06-20 12:45:33:166 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='2']","context":"","multiple":false}}
+2017-06-20 12:45:33:166 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:33:166 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:33:169 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:45:33:196 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:45:33:704 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2017-06-20 12:45:33:706 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element 200 543 ms - 87 
+2017-06-20 12:45:33:710 - info: [HTTP] --> POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/4/click {"id":"4"}
+2017-06-20 12:45:33:713 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2017-06-20 12:45:33:713 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:33:713 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:45:34:124 - info: [HTTP] <-- POST /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b/element/4/click 200 415 ms - 76 
+2017-06-20 12:45:34:125 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:34:133 - info: [HTTP] --> DELETE /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b {}
+2017-06-20 12:45:35:093 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-06-20 12:45:35:094 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-06-20 12:45:35:094 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-06-20 12:45:35:247 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:45:35:688 - info: [Appium] Removing session d80e2452-eb85-49cd-999e-6ee0df69da9b from our master session list
+2017-06-20 12:45:35:689 - info: [HTTP] <-- DELETE /wd/hub/session/d80e2452-eb85-49cd-999e-6ee0df69da9b 200 1557 ms - 76 
+2017-06-20 12:45:36:815 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk","appPackage":"atmecs.com.logintask","orientation":"","noReset":"true","dontStopAppOnReset":"","appiumVersion":"","appWaitPackage":"","appWaitActivity":"","language":"","locale":"","deviceName":"Android","fullReset":"false","appActivity":"atmecs.com.logintask.MainActivity","newCommandTimeout":"4000","platformVersion":"5.X","browserName":"","platformName":"Android"}}
+2017-06-20 12:45:36:820 - info: [Appium] Creating new AndroidDriver (v1.17.1) session
+2017-06-20 12:45:36:820 - info: [Appium] Capabilities:
+2017-06-20 12:45:36:821 - info: [Appium]   app: 'C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:36:821 - info: [Appium]   appPackage: 'atmecs.com.logintask'
+2017-06-20 12:45:36:822 - info: [Appium]   orientation: ''
+2017-06-20 12:45:36:822 - info: [Appium]   noReset: 'true'
+2017-06-20 12:45:36:822 - info: [Appium]   dontStopAppOnReset: ''
+2017-06-20 12:45:36:823 - info: [Appium]   appiumVersion: ''
+2017-06-20 12:45:36:823 - info: [Appium]   appWaitPackage: ''
+2017-06-20 12:45:36:824 - info: [Appium]   appWaitActivity: ''
+2017-06-20 12:45:36:825 - info: [Appium]   language: ''
+2017-06-20 12:45:36:825 - info: [Appium]   locale: ''
+2017-06-20 12:45:36:826 - info: [Appium]   deviceName: 'Android'
+2017-06-20 12:45:36:826 - info: [Appium]   fullReset: 'false'
+2017-06-20 12:45:36:826 - info: [Appium]   appActivity: 'atmecs.com.logintask.MainActivity'
+2017-06-20 12:45:36:827 - info: [Appium]   newCommandTimeout: '4000'
+2017-06-20 12:45:36:827 - info: [Appium]   platformVersion: '5.X'
+2017-06-20 12:45:36:828 - info: [Appium]   browserName: ''
+2017-06-20 12:45:36:828 - info: [Appium]   platformName: 'Android'
+2017-06-20 12:45:36:828 - info: [Appium]   udid: '192.168.245.101:5555'
+2017-06-20 12:45:36:831 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:36:832 - warn: [BaseDriver] Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:36:833 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+2017-06-20 12:45:36:835 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2017-06-20 12:45:36:836 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appiumVersion.
+2017-06-20 12:45:36:840 - info: [BaseDriver] Session created with session id: d1be2440-bf81-4443-80b2-3ecac3b102d0
+2017-06-20 12:45:36:931 - info: [AndroidDriver] Java version is: 1.8.0_131
+2017-06-20 12:45:36:932 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:36:934 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:36:934 - info: [AndroidDriver] Retrieving device list
+2017-06-20 12:45:36:985 - info: [AndroidDriver] Using device: 192.168.245.101:5555
+2017-06-20 12:45:36:985 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:36:987 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:36:988 - info: [BaseDriver] Using local app 'C:\Users\hitesh.ambagade\workspace\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:36:988 - info: [AndroidDriver] Starting Android session
+2017-06-20 12:45:37:456 - info: [ADB] Checking whether aapt is present
+2017-06-20 12:45:37:459 - info: [ADB] Using aapt.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\build-tools\24.0.0\aapt.exe
+2017-06-20 12:45:37:533 - warn: [ADB] Cannot read version codes of C:\Users\hitesh.ambagade\AppData\Local\Programs\appium-desktop\resources\app\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2017-06-20 12:45:38:402 - info: [ADB] Getting device platform version
+2017-06-20 12:45:39:095 - info: [AndroidDriver] Remote apk path is /data/local/tmp/1b1646be512f0268b7eac386649fd2e2.apk
+2017-06-20 12:45:40:621 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:45:40:774 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2017-06-20 12:45:40:776 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-06-20 12:45:40:777 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-06-20 12:45:40:812 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-06-20 12:45:40:888 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-06-20 12:45:42:071 - info: [Appium] New AndroidDriver session created successfully, session d1be2440-bf81-4443-80b2-3ecac3b102d0 added to master session list
+2017-06-20 12:45:42:073 - info: [HTTP] <-- POST /wd/hub/session 200 5257 ms - 1402 
+2017-06-20 12:45:42:085 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element {"using":"id","value":"atmecs.com.logintask:id/email"}
+2017-06-20 12:45:42:089 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/email","context":"","multiple":false}}
+2017-06-20 12:45:42:089 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:42:089 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:42:089 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/email' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:45:42:090 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/email]
+2017-06-20 12:45:42:377 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2017-06-20 12:45:42:380 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element 200 295 ms - 87 
+2017-06-20 12:45:42:384 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/1/value {"id":"1","value":["piyush@atmecs.com"]}
+2017-06-20 12:45:42:416 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"piyush@atmecs.com","replace":false}}
+2017-06-20 12:45:42:417 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:42:417 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:45:42:417 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+2017-06-20 12:45:42:423 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:45:44:764 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2017-06-20 12:45:44:766 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2017-06-20 12:45:44:767 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: piyush@atmecs.com
+2017-06-20 12:45:47:152 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:47:153 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/1/value 200 4769 ms - 76 
+2017-06-20 12:45:47:158 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element {"using":"id","value":"atmecs.com.logintask:id/password"}
+2017-06-20 12:45:47:161 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/password","context":"","multiple":false}}
+2017-06-20 12:45:47:161 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:47:161 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:47:162 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/password' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:45:47:162 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/password]
+2017-06-20 12:45:47:694 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element 200 536 ms - 87 
+2017-06-20 12:45:47:695 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2017-06-20 12:45:47:699 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/2/value {"id":"2","value":["piyuh123"]}
+2017-06-20 12:45:47:707 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"piyuh123","replace":false}}
+2017-06-20 12:45:47:708 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:47:708 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:45:47:708 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2017-06-20 12:45:47:746 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:45:50:138 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: piyuh123
+2017-06-20 12:45:52:559 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:52:560 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/2/value 200 4861 ms - 76 
+2017-06-20 12:45:52:564 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element {"using":"xpath","value":"//android.widget.Button[@index='0']"}
+2017-06-20 12:45:52:568 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='0']","context":"","multiple":false}}
+2017-06-20 12:45:52:568 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:52:569 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:52:569 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='0']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:45:52:600 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:45:53:103 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element 200 538 ms - 87 
+2017-06-20 12:45:53:106 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2017-06-20 12:45:53:107 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/3/click {"id":"3"}
+2017-06-20 12:45:53:117 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2017-06-20 12:45:53:117 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:53:117 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:45:53:417 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:53:419 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/3/click 200 311 ms - 76 
+2017-06-20 12:45:53:425 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element {"using":"xpath","value":"//android.widget.Button[@index='2']"}
+2017-06-20 12:45:53:429 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='2']","context":"","multiple":false}}
+2017-06-20 12:45:53:429 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:53:430 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:45:53:430 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:45:53:443 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:45:53:954 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element 200 529 ms - 87 
+2017-06-20 12:45:53:960 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2017-06-20 12:45:53:963 - info: [HTTP] --> POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/4/click {"id":"4"}
+2017-06-20 12:45:53:969 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2017-06-20 12:45:53:970 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:45:53:970 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:45:54:258 - info: [HTTP] <-- POST /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0/element/4/click 200 294 ms - 76 
+2017-06-20 12:45:54:258 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:45:54:262 - info: [HTTP] --> DELETE /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0 {}
+2017-06-20 12:45:55:229 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-06-20 12:45:55:231 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-06-20 12:45:55:232 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-06-20 12:45:55:232 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-06-20 12:45:55:387 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:45:55:843 - info: [Appium] Removing session d1be2440-bf81-4443-80b2-3ecac3b102d0 from our master session list
+2017-06-20 12:45:55:844 - info: [HTTP] <-- DELETE /wd/hub/session/d1be2440-bf81-4443-80b2-3ecac3b102d0 200 1582 ms - 76 
+2017-06-20 12:45:56:968 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk","appPackage":"atmecs.com.logintask","orientation":"","noReset":"true","dontStopAppOnReset":"","appiumVersion":"","appWaitPackage":"","appWaitActivity":"","language":"","locale":"","deviceName":"Android","fullReset":"false","appActivity":"atmecs.com.logintask.MainActivity","newCommandTimeout":"4000","platformVersion":"5.X","browserName":"","platformName":"Android"}}
+2017-06-20 12:45:56:971 - info: [Appium] Creating new AndroidDriver (v1.17.1) session
+2017-06-20 12:45:56:971 - info: [Appium] Capabilities:
+2017-06-20 12:45:56:972 - info: [Appium]   app: 'C:\\Users\\hitesh.ambagade\\workspace\\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:56:972 - info: [Appium]   appPackage: 'atmecs.com.logintask'
+2017-06-20 12:45:56:972 - info: [Appium]   orientation: ''
+2017-06-20 12:45:56:973 - info: [Appium]   noReset: 'true'
+2017-06-20 12:45:56:973 - info: [Appium]   dontStopAppOnReset: ''
+2017-06-20 12:45:56:973 - info: [Appium]   appiumVersion: ''
+2017-06-20 12:45:56:973 - info: [Appium]   appWaitPackage: ''
+2017-06-20 12:45:56:973 - info: [Appium]   appWaitActivity: ''
+2017-06-20 12:45:56:973 - info: [Appium]   language: ''
+2017-06-20 12:45:56:974 - info: [Appium]   locale: ''
+2017-06-20 12:45:56:974 - info: [Appium]   deviceName: 'Android'
+2017-06-20 12:45:56:974 - info: [Appium]   fullReset: 'false'
+2017-06-20 12:45:56:974 - info: [Appium]   appActivity: 'atmecs.com.logintask.MainActivity'
+2017-06-20 12:45:56:974 - info: [Appium]   newCommandTimeout: '4000'
+2017-06-20 12:45:56:974 - info: [Appium]   platformVersion: '5.X'
+2017-06-20 12:45:56:975 - info: [Appium]   browserName: ''
+2017-06-20 12:45:56:975 - info: [Appium]   platformName: 'Android'
+2017-06-20 12:45:56:975 - info: [Appium]   udid: '192.168.245.101:5555'
+2017-06-20 12:45:56:976 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:56:976 - warn: [BaseDriver] Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+2017-06-20 12:45:56:977 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('4000') to integer (4000). This may cause unexpected behavior
+2017-06-20 12:45:56:979 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2017-06-20 12:45:56:980 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: appiumVersion.
+2017-06-20 12:45:56:981 - info: [BaseDriver] Session created with session id: 66eb7084-6b21-4c41-a7fc-f869739cb3c5
+2017-06-20 12:45:57:067 - info: [AndroidDriver] Java version is: 1.8.0_131
+2017-06-20 12:45:57:068 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:57:069 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:57:069 - info: [AndroidDriver] Retrieving device list
+2017-06-20 12:45:57:120 - info: [AndroidDriver] Using device: 192.168.245.101:5555
+2017-06-20 12:45:57:120 - info: [ADB] Checking whether adb is present
+2017-06-20 12:45:57:121 - info: [ADB] Using adb.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-06-20 12:45:57:122 - info: [BaseDriver] Using local app 'C:\Users\hitesh.ambagade\workspace\XlsReading/applications/LoginAtmecs.apk'
+2017-06-20 12:45:57:122 - info: [AndroidDriver] Starting Android session
+2017-06-20 12:45:57:631 - info: [ADB] Checking whether aapt is present
+2017-06-20 12:45:57:669 - info: [ADB] Using aapt.exe from C:\Users\hitesh.ambagade\AppData\Local\Android\sdk\build-tools\24.0.0\aapt.exe
+2017-06-20 12:45:57:712 - warn: [ADB] Cannot read version codes of C:\Users\hitesh.ambagade\AppData\Local\Programs\appium-desktop\resources\app\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2017-06-20 12:45:58:524 - info: [ADB] Getting device platform version
+2017-06-20 12:45:59:257 - info: [AndroidDriver] Remote apk path is /data/local/tmp/1b1646be512f0268b7eac386649fd2e2.apk
+2017-06-20 12:46:00:897 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:46:01:051 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2017-06-20 12:46:01:052 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-06-20 12:46:01:098 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-06-20 12:46:01:098 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-06-20 12:46:01:170 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-06-20 12:46:02:463 - info: [Appium] New AndroidDriver session created successfully, session 66eb7084-6b21-4c41-a7fc-f869739cb3c5 added to master session list
+2017-06-20 12:46:02:464 - info: [HTTP] <-- POST /wd/hub/session 200 5496 ms - 1402 
+2017-06-20 12:46:02:469 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element {"using":"id","value":"atmecs.com.logintask:id/email"}
+2017-06-20 12:46:02:474 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/email","context":"","multiple":false}}
+2017-06-20 12:46:02:476 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:02:476 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:46:02:476 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/email' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:46:02:476 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/email]
+2017-06-20 12:46:02:856 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2017-06-20 12:46:02:860 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element 200 391 ms - 87 
+2017-06-20 12:46:02:866 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/1/value {"id":"1","value":["omkar@atmecs.com"]}
+2017-06-20 12:46:02:875 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"omkar@atmecs.com","replace":false}}
+2017-06-20 12:46:02:876 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:02:876 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:46:02:876 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+2017-06-20 12:46:02:914 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:46:05:294 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2017-06-20 12:46:05:296 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2017-06-20 12:46:05:296 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: omkar@atmecs.com
+2017-06-20 12:46:07:731 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:46:07:732 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/1/value 200 4866 ms - 76 
+2017-06-20 12:46:07:736 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element {"using":"id","value":"atmecs.com.logintask:id/password"}
+2017-06-20 12:46:07:740 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"atmecs.com.logintask:id/password","context":"","multiple":false}}
+2017-06-20 12:46:07:740 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:07:741 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:46:07:741 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'atmecs.com.logintask:id/password' using 'ID' with the contextId: '' multiple: false
+2017-06-20 12:46:07:741 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=atmecs.com.logintask:id/password]
+2017-06-20 12:46:08:289 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element 200 553 ms - 87 
+2017-06-20 12:46:08:291 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2017-06-20 12:46:08:293 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/2/value {"id":"2","value":["omkar123"]}
+2017-06-20 12:46:08:296 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"omkar123","replace":false}}
+2017-06-20 12:46:08:297 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:08:297 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2017-06-20 12:46:08:297 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2017-06-20 12:46:08:305 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2017-06-20 12:46:10:633 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: omkar123
+2017-06-20 12:46:13:005 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:46:13:006 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/2/value 200 4720 ms - 76 
+2017-06-20 12:46:13:009 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element {"using":"xpath","value":"//android.widget.Button[@index='0']"}
+2017-06-20 12:46:13:013 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='0']","context":"","multiple":false}}
+2017-06-20 12:46:13:014 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:13:014 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:46:13:014 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='0']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:46:13:045 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:46:13:641 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element 200 627 ms - 87 
+2017-06-20 12:46:13:641 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2017-06-20 12:46:13:643 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/3/click {"id":"3"}
+2017-06-20 12:46:13:645 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2017-06-20 12:46:13:646 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:13:646 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:46:13:911 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:46:13:914 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/3/click 200 270 ms - 76 
+2017-06-20 12:46:13:919 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element {"using":"xpath","value":"//android.widget.Button[@index='2']"}
+2017-06-20 12:46:13:924 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@index='2']","context":"","multiple":false}}
+2017-06-20 12:46:13:924 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:13:924 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2017-06-20 12:46:13:925 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@index='2']' using 'XPATH' with the contextId: '' multiple: false
+2017-06-20 12:46:13:941 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2017-06-20 12:46:14:446 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2017-06-20 12:46:14:449 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element 200 529 ms - 87 
+2017-06-20 12:46:14:453 - info: [HTTP] --> POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/4/click {"id":"4"}
+2017-06-20 12:46:14:474 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2017-06-20 12:46:14:475 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2017-06-20 12:46:14:475 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2017-06-20 12:46:14:741 - info: [HTTP] <-- POST /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5/element/4/click 200 288 ms - 76 
+2017-06-20 12:46:14:742 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2017-06-20 12:46:14:748 - info: [HTTP] --> DELETE /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5 {}
+2017-06-20 12:46:15:859 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-06-20 12:46:16:308 - info: [Appium] Removing session 66eb7084-6b21-4c41-a7fc-f869739cb3c5 from our master session list
+2017-06-20 12:46:16:309 - info: [HTTP] <-- DELETE /wd/hub/session/66eb7084-6b21-4c41-a7fc-f869739cb3c5 200 1561 ms - 76 
